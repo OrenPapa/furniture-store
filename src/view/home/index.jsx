@@ -1,13 +1,17 @@
 import Navbar from "../../components/navbar";
+import Head from "./head";
 
 function Home() {
   return (
-    <>
-      <Navbar />
+    <div>
+      <Navbar colored/>
       <div
-        style={{ width: "100%", height: "2000px", background: "grey" }}
-      ></div>
-    </>
+        className="pt-28 w-full flex flex-col items-center"
+        style={{ minHeight: "calc(100vh - 112px)" }}
+      >
+        <Head />
+      </div>
+    </div>
   );
 }
 
