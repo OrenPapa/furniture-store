@@ -5,3 +5,8 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+/* Minimal custom styles */
+.active-menu-item {
+  @apply border-yellow-500;
+}
