@@ -3,6 +3,7 @@ import Navbar from "../../components/navbar";
 import ChoseUsSection from "./choseUsSection";
 import Head from "./head";
 import ProductCatalog from "./productCatalog";
+import ProductList from "./productList";
 import WeHelpYouSection from "./weHelpYouSection";
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
         <ProductCatalog />
         <ChoseUsSection />
         <WeHelpYouSection />
+        <ProductList />
       </div>
       <Footer />
     </div>
