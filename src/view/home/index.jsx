@@ -1,6 +1,9 @@
+import Footer from "../../components/footer";
 import Navbar from "../../components/navbar";
+import ChoseUsSection from "./choseUsSection";
 import Head from "./head";
 import ProductCatalog from "./productCatalog";
+import WeHelpYouSection from "./weHelpYouSection";
 
 function Home() {
   return (
@@ -12,7 +15,10 @@ function Home() {
       >
         <Head />
         <ProductCatalog />
+        <ChoseUsSection />
+        <WeHelpYouSection />
       </div>
+      <Footer />
     </div>
   );
 }
