@@ -31,78 +31,80 @@ function Navbar({ colored }) {
 
   return (
     <div
-      className={`fixed w-full flex flex-row justify-between py-8 px-40 ${backgroundColor} transition-colors duration-300`}
+      className={`fixed flex justify-center w-full py-8 ${backgroundColor} transition-colors duration-300`}
     >
-      <NavLink
-        to="/"
-        className={`logo text-2xl font-bold cursor-pointer select-none ${textColor}`}
-        style={{ lineHeight: 2 }}
-      >
-        Furniture
-      </NavLink>
-      <div className="flex items-center space-x-8">
-        <div className="menu flex space-x-8">
-          <NavLink
-            exact
-            to="/"
-            className={`menu-item px-6 py-2 border-b-4 cursor-pointer select-none ${textColor} ${
-              location.pathname === "/"
-                ? "border-yellow-500"
-                : "border-transparent"
-            }`}
-          >
-            Home
-          </NavLink>
-          <NavLink
-            to="/about-us"
-            className={`menu-item px-6 py-2 border-b-4 cursor-pointer select-none ${textColor} ${
-              location.pathname === "/about-us"
-                ? "border-yellow-500"
-                : "border-transparent"
-            }`}
-          >
-            About us
-          </NavLink>
-          <NavLink
-            to="/services"
-            className={`menu-item px-6 py-2 border-b-4 cursor-pointer select-none ${textColor} ${
-              location.pathname === "/services"
-                ? "border-yellow-500"
-                : "border-transparent"
-            }`}
-          >
-            Services
-          </NavLink>
-          <NavLink
-            to="/blog"
-            className={`menu-item px-6 py-2 border-b-4 cursor-pointer select-none ${textColor} ${
-              location.pathname === "/blog"
-                ? "border-yellow-500"
-                : "border-transparent"
-            }`}
-          >
-            Blog
-          </NavLink>
-          <NavLink
-            to="/contact-us"
-            className={`menu-item px-6 py-2 border-b-4 cursor-pointer select-none ${textColor} ${
-              location.pathname === "/contact-us"
-                ? "border-yellow-500"
-                : "border-transparent"
-            }`}
-          >
-            Contact us
-          </NavLink>
-        </div>
-        <div className="icons flex space-x-10">
-          <FontAwesomeIcon
-            icon={faUser}
-            className={`${textColor} cursor-pointer`}
-          />
-          <FontAwesomeIcon
-            icon={faShoppingCart}
-            className={`${textColor} cursor-pointer`}
-          />
+      <div className="w-full flex flex-row justify-between max-w-[1600px] mx-2">
+        <NavLink
+          to="/"
+          className={`logo text-2xl font-bold cursor-pointer select-none ${textColor}`}
+          style={{ lineHeight: 2 }}
+        >
+          Furniture
+        </NavLink>
+        <div className="flex items-center space-x-8">
+          <div className="menu flex space-x-8">
+            <NavLink
+              exact
+              to="/"
+              className={`menu-item px-6 py-2 border-b-4 cursor-pointer select-none ${textColor} ${
+                location.pathname === "/"
+                  ? "border-yellow-500"
+                  : "border-transparent"
+              }`}
+            >
+              Home
+            </NavLink>
+            <NavLink
+              to="/about-us"
+              className={`menu-item px-6 py-2 border-b-4 cursor-pointer select-none ${textColor} ${
+                location.pathname === "/about-us"
+                  ? "border-yellow-500"
+                  : "border-transparent"
+              }`}
+            >
+              About us
+            </NavLink>
+            <NavLink
+              to="/services"
+              className={`menu-item px-6 py-2 border-b-4 cursor-pointer select-none ${textColor} ${
+                location.pathname === "/services"
+                  ? "border-yellow-500"
+                  : "border-transparent"
+              }`}
+            >
+              Services
+            </NavLink>
+            <NavLink
+              to="/blog"
+              className={`menu-item px-6 py-2 border-b-4 cursor-pointer select-none ${textColor} ${
+                location.pathname === "/blog"
+                  ? "border-yellow-500"
+                  : "border-transparent"
+              }`}
+            >
+              Blog
+            </NavLink>
+            <NavLink
+              to="/contact-us"
+              className={`menu-item px-6 py-2 border-b-4 cursor-pointer select-none ${textColor} ${
+                location.pathname === "/contact-us"
+                  ? "border-yellow-500"
+                  : "border-transparent"
+              }`}
+            >
+              Contact us
+            </NavLink>
+          </div>
+          <div className="icons flex space-x-10">
+            <FontAwesomeIcon
+              icon={faUser}
+              className={`${textColor} cursor-pointer`}
+            />
+            <FontAwesomeIcon
+              icon={faShoppingCart}
+              className={`${textColor} cursor-pointer`}
+            />
+          </div>
         </div>
       </div>
     </div>

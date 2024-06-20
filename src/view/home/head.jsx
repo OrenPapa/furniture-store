@@ -2,8 +2,8 @@ import HeadSofaImage from "../../assets/headSofa.png";
 
 function Head() {
   return (
-    <div className="w-full flex bg-green-800 h-[600px] text-white py-20 px-40">
-      <div className="w-full h-full flex flex-row justify-between">
+    <div className="w-full flex bg-green-800 h-[600px] text-white py-20 justify-center">
+      <div className="w-full h-full flex flex-row justify-between max-w-[1600px] mx-2">
         <div className=" h-full flex flex-col justify-center">
           <h1 className="text-4xl font-bold-600 mb-4  max-w-[400px]">
             Modern Interior Design Studio

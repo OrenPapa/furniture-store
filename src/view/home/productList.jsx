@@ -23,10 +23,12 @@ function ProductItem({ title, image }) {
 
 function ProductList() {
   return (
-    <div className="w-full py-16 px-40 flex flex-wrap flex-row justify-between">
-      <ProductItem title="Armchair" image={furniture1} />
-      <ProductItem title="Wingback Chair" image={furniture2} />
-      <ProductItem title="Barrel Chair" image={furniture3} />
+    <div className="w-full py-16 flex justify-center">
+      <div className=" w-full max-w-[1600px] flex flex-wrap flex-row justify-between  mx-2">
+        <ProductItem title="Armchair" image={furniture1} />
+        <ProductItem title="Wingback Chair" image={furniture2} />
+        <ProductItem title="Barrel Chair" image={furniture3} />
+      </div>
     </div>
   );
 }

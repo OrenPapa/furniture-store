@@ -2,13 +2,18 @@ import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="w-full h-[400px] bg-green-800 px-40 py-16 flex flex-col justify-center box-border">
-      <div className="flex-1 flex flex-row justify-between items-start max-h-[200px]">
+    <div className="w-full h-[400px] bg-green-800 py-16 flex flex-col items-center box-border">
+      <div className="w-full flex-1 flex flex-row justify-between items-start max-h-[200px] max-w-[1600px] mx-2">
         <div className="w-3/5 flex flex-col">
-          <div className="logo text-2xl font-bold cursor-pointer select-none text-white">
+          <NavLink
+            exact
+            to="/"
+            className="logo text-2xl font-bold cursor-pointer select-none text-white"
+          >
             Furniture
-          </div>
-          <div className="menu flex space-x-8 mt-2">
+          </NavLink>
+
+          <div className="menu flex space-x-14 mt-2">
             <NavLink
               exact
               to="/"
@@ -67,20 +72,20 @@ function Footer() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="w-full flex flex-row justify-between flex-2 border-t-2 border-grey-100">
-        <div className="flex flex-row justify-between items-start text-white w-[920px] mt-4">
-          <div className="w-fit">Terms & Conditions</div>
+      </div> 
+      <div className="w-full flex flex-row justify-between flex-2 border-t-2 border-grey-100 max-w-[1600px] mx-2">
+        <div className="flex flex-row justify-between items-start text-white w-[920px] mt-4 select-none">
+          <div className="w-fit cursor-pointer">Terms & Conditions</div>
           <div className="w-fit">|</div>
-          <div className="w-fit">Privacy Policy</div>
+          <div className="w-fit cursor-pointer">Privacy Policy</div>
           <div className="w-fit">|</div>
-          <div className="w-fit">Supply Chains Act</div>
+          <div className="w-fit cursor-pointer">Supply Chains Act</div>
           <div className="w-fit">|</div>
-          <div className="w-fit">Supplier Code of Conduct</div>
+          <div className="w-fit cursor-pointer">Supplier Code of Conduct</div>
           <div className="w-fit">|</div>
-          <div className="w-fit">Marketing</div>
+          <div className="w-fit cursor-pointer">Marketing</div>
         </div>
-        <div className="text-white mt-4">
+        <div className="text-white mt-4 select-none">
           © 2024 Furniture USA, inc. All rights reserved.
         </div>
       </div>
