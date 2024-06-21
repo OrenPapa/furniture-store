@@ -1,6 +1,6 @@
 import Forrest from "../../assets/forrest.jpg";
 
-function Header() {
+function Head() {
   return (
     <div className="w-full flex bg-green-800 h-[600px] text-white justify-center ">
       <div className="w-full h-full relative max-w-[2400px]">
@@ -37,4 +37,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Head;

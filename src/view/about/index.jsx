@@ -1,6 +1,6 @@
 import Navbar from "../../components/navbar";
 import ClientsSection from "./clientsSection";
-import Header from "./header";
+import Head from "./head";
 import Footer from "../../components/footer";
 
 function AboutUs() {
@@ -11,7 +11,7 @@ function AboutUs() {
         className="pt-28 w-full flex flex-col items-center"
         style={{ minHeight: "calc(100vh - 112px)" }}
       >
-        <Header />
+        <Head />
         <ClientsSection />
         <Footer />
       </div>
