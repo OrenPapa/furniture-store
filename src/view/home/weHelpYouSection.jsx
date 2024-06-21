@@ -62,7 +62,7 @@ function WeHelpYouSection() {
           </div>
         </div>
         <div className="w-[600px] flex justify-start mt-2">
-          <button className="bg-black text-black py-2 px-4 rounded-[20px] text-white ml-2">
+          <button className="bg-black hover:bg-gray-900 py-2 px-4 rounded-[20px] text-white ml-2">
             Explore
           </button>
         </div>

@@ -13,10 +13,10 @@ function Head() {
             mauris quam. Etiam ut risus sit amet nisl suscipit posuere.
           </p>
           <div className="flex space-x-4">
-            <button className="bg-yellow-500 text-black py-2 px-4 rounded-[20px]">
+            <button className="bg-yellow-500 hover:bg-yellow-400 text-black py-2 px-4 rounded-[20px]">
               Shop Now
             </button>
-            <button className="bg-transparent border border-white py-2 px-4 rounded-[20px]">
+            <button className="bg-transparent hover:bg-green-700 border border-white py-2 px-4 rounded-[20px]">
               Explore
             </button>
           </div>

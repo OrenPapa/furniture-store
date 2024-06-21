@@ -56,7 +56,7 @@ function Footer() {
                 placeholder="Your email here"
                 type="email"
               />
-              <button className="text-white border-2 border-white h-[40px] px-6">
+              <button className="text-white hover:bg-green-700 border-2 border-white h-[40px] px-6">
                 Subscribe
               </button>
             </div>

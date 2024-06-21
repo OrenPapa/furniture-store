@@ -16,7 +16,7 @@ function ProductCatalog() {
             mauris quam. Etiam ut risus sit amet nisl suscipit posuere.
           </p>
           <div className="flex space-x-4">
-            <button className="bg-black py-2 px-4 rounded-[20px] text-white">
+            <button className="bg-black hover:bg-gray-900 py-2 px-4 rounded-[20px] text-white">
               Explore
             </button>
           </div>
