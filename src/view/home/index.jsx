@@ -9,7 +9,7 @@ import WeHelpYouSection from "./weHelpYouSection";
 function Home() {
   return (
     <div>
-      <Navbar colored />
+      <Navbar />
       <div
         className="pt-28 w-full flex flex-col items-center"
         style={{ minHeight: "calc(100vh - 112px)" }}
